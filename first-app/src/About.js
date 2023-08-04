@@ -2,7 +2,14 @@ import React from 'react';
 import App from './App';
 function About(){
     return(
-        <h1>I am About Page.</h1>
+        <div>
+        <h1>AWS Cloud React Tutorial</h1>
+        <ol>
+            <li>Deployment on S3 Bucket:</li>
+            <li>Deployment on AWS Elastic Beanstalk:</li>
+            <li>Deployment using EKS :</li>
+        </ol>
+        </div>
     )
 }
 export default About
